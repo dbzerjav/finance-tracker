@@ -1,7 +1,7 @@
 == README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Finance Tracker app from the Complete Ruby on the Rails Developer Course. 
+It will allow a user to track look up stocks by ticker, create a profile of upto 10 stocks, 
+and interact with other users and add frineds to a friends list.  
 
 Things you may want to cover:
 
