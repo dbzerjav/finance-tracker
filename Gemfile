@@ -37,7 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-    # Use sqlite3 as the database for Active Record
+  # Use sqlite3 as the database for developemnt
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -52,8 +52,8 @@ group :development do
 end
 
 group :production do
-  
+  # Pg is the Ruby interface to the PostgreSQL RDBMS
   gem 'pg'
+  # rails 12 factor gem enables serving assets in production and setting your logger to standard out
   gem 'rails_12factor'
-
 end
